@@ -1,26 +1,114 @@
-h1{
-  /* css ruleset */
-  background-color: red;
-  padding: 2rem;
-  border-radius: 10px;
+/* universal selector */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-ol{
+
+/* class (.) selector */
+/* .paragraph {
+  font-size: 0.9rem;
   background-color: rebeccapurple;
+  padding: 2rem;
   color: white;
-}
-ul{
-background-color: crimson;
-color: white;
-list-style: none;
-padding: 2rem;
-}
-p{
-  background-color: black;
+  margin: 1rem;
+} */
+
+/* id (#) selector */
+/* #second-paragraph {
+  background-color: orange;
   color: white;
-  margin: 2rem 7rem;
-  padding: 2rem 5rem;
-  border-radius: 2rem;
-  font-size: 2rem;
-  font-weight: 100;
-  opacity: .5;
+  padding: 1.5rem;
+  margin: 1rem;
+  border-radius: 10px;
+} */
+/* Grouping selector eleement elemnt selector */
+/* h1,
+h2,
+span,
+a {
+  font-size: 1.1rem;
+  font-family: monospace;
+  color: red;
+} */
+
+/* class element selector */
+
+/* h1.description{
+  font-family: 'Lucida Sans';
+  color: orange;
+} */
+
+/* descendant combinators */
+/* .container p {
+  color: rebeccapurple;
+} */
+/* .container div p {
+  color: red;
+} */
+/* child combinator */
+/* .parent > div {
+  background-color: red;
+  color: orange;
+  padding: 1rem;
+} */
+
+.parent > div > ul > li {
+  list-style: none;
 }
+
+/* style with attribute */
+
+[href] {
+  color: red;
+}
+[href="#"] {
+  color: red;
+}
+[type="text"] {
+  /* border-color: red; */
+  padding: .4rem;
+}
+[type="email"] {
+}
+[type="password"] {
+}
+[type="tel"] {
+}
+button{
+  border: none;
+  margin: 2rem;
+  padding: .4rem .5rem;
+  border-radius: 8px;
+}
+.send:hover{
+  color: white;
+  background-color: rebeccapurple;
+  cursor: pointer;
+}
+.submit:disabled{
+  background-color: gray;
+}
+
+::placeholder{
+  color: orange;
+  border-left: 2px solid green;
+}
+/* p::first-line{
+  text-transform: uppercase;
+  color: red;
+}
+h1::first-letter{
+  text-transform: uppercase;
+  color: blue;
+} */
+
+
+  /* div ~ p {
+    color: red;
+  } */
+
+    div + p {
+    color: red;
+  }

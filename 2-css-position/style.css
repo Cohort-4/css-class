@@ -1,0 +1,58 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* position: relative */
+.relative {
+  border: 3px solid orange;
+  padding: 0.4rem;
+  position: relative;
+  left: 30px;
+  margin-right: 2rem;
+}
+/* position: relative */
+
+/* position: absolute */
+.aboslute-parent {
+  border: 3px solid rebeccapurple;
+  width: 400px;
+  height: 250px;
+  padding: 2rem;
+  margin: 1rem;
+  position: relative;
+}
+.absolute {
+  border: 3px solid red;
+  width: 150px;
+  padding: 0.4rem;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+/* position: absolute */
+
+/* position sticky */
+.sticky {
+  border: 1px solid rgb(255, 0, 162);
+  background-color: green;
+  color: white;
+  padding: 1rem;
+  position: sticky;
+  top: 0px;
+}
+/* position sticky */
+
+/* position: fixed */
+.fixed {
+  border: 3px solid purple;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  background-color: orange;
+  cursor: pointer;
+  margin: 1rem;
+}
+/* position: fixed */

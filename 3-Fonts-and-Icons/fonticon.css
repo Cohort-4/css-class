@@ -1,0 +1,4 @@
+/* Shorthand property for setting 'font-style', 'font-variant', 'font-weight', 'font-size', 'line-height', and 'font-family', at the same place in the style sheet.  */
+* {
+  font: italic 1.2rem "Fira Sans", serif;
+}
