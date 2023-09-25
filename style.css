@@ -7,38 +7,38 @@
 }
 
 /* class (.) selector */
-/* .paragraph {
+.paragraph {
   font-size: 0.9rem;
   background-color: rebeccapurple;
   padding: 2rem;
   color: white;
   margin: 1rem;
-} */
+}
 
 /* id (#) selector */
-/* #second-paragraph {
+#second-paragraph {
   background-color: orange;
   color: white;
   padding: 1.5rem;
   margin: 1rem;
   border-radius: 10px;
-} */
+}
 /* Grouping selector eleement elemnt selector */
-/* h1,
+h1,
 h2,
 span,
 a {
   font-size: 1.1rem;
   font-family: monospace;
   color: red;
-} */
+}
 
 /* class element selector */
 
-/* h1.description{
+h1.description{
   font-family: 'Lucida Sans';
   color: orange;
-} */
+}
 
 /* descendant combinators */
 /* .container p {
@@ -109,6 +109,6 @@ h1::first-letter{
     color: red;
   } */
 
-    div + p {
+    /* div + p {
     color: red;
-  }
+  } */
