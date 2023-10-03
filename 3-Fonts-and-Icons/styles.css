@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  margin: 10px 0;
+  padding-right: .7rem;
+}
+h1{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 100;
+}
+h2 {
+  font-family: "Roboto";
+}
+p {
+  font-family: "Space Grotesk";
+}
+.fa-whatsapp{
+  color: green;
+}
+span{
+  cursor: pointer;
+}

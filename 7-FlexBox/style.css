@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Space Grotesk";
+}
+
+.container{
+  display: flex;
+}
+/* FLEX DIRECTION */
+.direction-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.direction-container > div {
+  background-color: orange;
+  color: white;
+  margin: 10px;
+  width: 150px;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+/* FLEX DIRECTION */
+
+/* FLEX WRAP */
+.wrap-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrap-container > div {
+  background-color: rgb(102, 0, 255);
+  color: white;
+  margin: 10px;
+  width: 150px;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+/* FLEX WRAP */
