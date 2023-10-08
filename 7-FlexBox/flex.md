@@ -46,7 +46,7 @@ The justify-content property is used to align the flex items.
 
 It distribute spaces on the main axis.
 
-![main-axis](./flexbox-image/main-axis.svg)
+![main-axis](./main-axis.svg)
 
 ```css
 justify-content : flex-start | flex-end | center |space-between | space-around | space-evenly
@@ -56,7 +56,7 @@ The align-items property is used to align the flex items.
 
 It distribute spaces on the cross axis.
 
-![main-axis](./flexbox-image/cross-axis.svg)
+![cross-axis](./cross-axis.svg)
 
 ```css
 align-items: baseline | center | stretch | flex-end | flex-start

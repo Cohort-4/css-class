@@ -5,11 +5,23 @@
   font-family: "Space Grotesk";
 }
 
-.container{
+/* FLEX CONTAINER */
+.container {
   display: flex;
 }
+.container > div {
+  background-color: rgb(45, 242, 20);
+  color: white;
+  margin: 10px;
+  width: 150px;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+/* FLEX CONTAINER */
+
 /* FLEX DIRECTION */
-.direction-container{
+.direction-container {
   display: flex;
   flex-direction: row;
 }
@@ -26,7 +38,7 @@
 /* FLEX DIRECTION */
 
 /* FLEX WRAP */
-.wrap-container{
+.wrap-container {
   display: flex;
   flex-wrap: wrap;
 }
@@ -41,3 +53,160 @@
   font-size: 1.5rem;
 }
 /* FLEX WRAP */
+
+/* flexflow */
+.flexflow-container {
+  display: flex;
+  flex-flow: column-reverse wrap;
+}
+.flexflow-container > div {
+  background-color: rgb(233, 17, 190);
+  color: white;
+  margin: 10px;
+  width: 150px;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+/* flexflow */
+
+/* justify content */
+.justify-content-container {
+  background-color: aqua;
+  padding: 2rem;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.justify-content-container > div {
+  background-color: rgb(233, 17, 17);
+  color: white;
+  margin: 10px;
+  width: 150px;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+/* justify content */
+
+/* align-item */
+.align-item-container {
+  background-color: coral;
+  padding: 2rem;
+  margin: 1rem;
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+.align-item-container > div {
+  background-color: rgb(31, 249, 11);
+  color: white;
+  margin: 10px;
+  width: 150px;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+/* align-item */
+
+/* CHILDREN PRPERTIES */
+
+/* FLEX ITEMS */
+.order-container {
+  background-color: coral;
+  padding: 2rem;
+  margin: 1rem;
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+.order-container > div {
+  background-color: rgb(31, 249, 11);
+  color: white;
+  margin: 10px;
+  width: 150px;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+/* flex grow */
+.flex-grow-container {
+  background-color: coral;
+  padding: 2rem;
+  margin: 1rem;
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+.flex-grow-container > div {
+  background-color: rgb(31, 249, 11);
+  color: white;
+  margin: 10px;
+  width: 150px;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+/* flex grow */
+
+/* flex shrink */
+.flex-shrink-container {
+  background-color: coral;
+  padding: 2rem;
+  margin: 1rem;
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+.flex-shrink-container > div {
+  background-color: rgb(31, 249, 11);
+  color: white;
+  margin: 10px;
+  width: 150px;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+/* flex shrink */
+
+/* flex basis */
+.flex-basis-container {
+  background-color: coral;
+  padding: 2rem;
+  margin: 1rem;
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+.flex-basis-container > div {
+  background-color: rgb(31, 249, 11);
+  color: white;
+  margin: 10px;
+  width: 150px;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+/* flex basis */
+
+/* flex */
+.flex-container {
+  background-color: coral;
+  padding: 2rem;
+  margin: 1rem;
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+.flex-container > div {
+  background-color: rgb(31, 249, 11);
+  color: white;
+  margin: 10px;
+  width: 150px;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+/* flex */
+/* FLEX ITEMS */

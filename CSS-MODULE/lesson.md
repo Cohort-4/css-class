@@ -29,3 +29,5 @@ Credit/ Reference
 -----------------
 
 [how to style with css-modules](https://www.gatsbyjs.com/docs/how-to/styling/css-modules/#:~:text=A%20CSS%20Module%20is%20a,for%20additional%20processing%20and%20safety.)
+
+[https://www.gatsbyjs.com/docs/tutorial/getting-started/part-2/#css-modules](https://www.gatsbyjs.com/docs/tutorial/getting-started/part-2/#css-modules)
