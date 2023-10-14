@@ -95,14 +95,19 @@ button{
   color: orange;
   border-left: 2px solid green;
 }
-/* p::first-line{
+p::first-line{
   text-transform: uppercase;
-  color: red;
 }
 h1::first-letter{
   text-transform: uppercase;
   color: blue;
-} */
+}
+h3::first-letter{
+  color: orange;
+  /* font-size: 3rem; */
+  /* initial-letter: 3; */
+  initial-letter: 3 2;
+}
 
 
   /* div ~ p {
