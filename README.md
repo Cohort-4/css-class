@@ -2,8 +2,15 @@
 
 > CSS Basis
 
-This repo contains note on the basis of `CSS` and how to you `CSS` to add styling to an `HTML` Elements.
+This repo contains note on the basis of `CSS` and how to you `CSS` to add styling and layout to an `HTML` Elements.
 
+## Learning CSS Flexbox
+
+[https://marusoft.github.io/flexbox/](https://marusoft.github.io/flexbox/)
+
+[w3school Reference](https://www.w3schools.com/css/css3_flexbox.asp)
+
+[Learn CSS flexbox from web.dev](https://web.dev/learn/css/flexbox/)
 
 Credit / Reference
 -------------------
