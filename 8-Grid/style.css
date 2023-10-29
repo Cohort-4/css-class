@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.parent-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 1rem;
+}
+.parent-container > div {
+  background-color: dodgerblue;
+  font-size: 2rem;
+  /* margin: 0.4rem; */
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+/* gtr */
+.parent-container-row {
+  display: grid;
+  grid-template-rows: 90px 250px;
+}
+.parent-container-row > div {
+  background-color: rebeccapurple;
+  font-size: 2rem;
+  margin: 0.4rem;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+/* gtr */
+
+.container-gc {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.container-gc > div {
+  background-color: rgb(10, 176, 231);
+  font-size: 2rem;
+  margin: 0.4rem;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+.alameen{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.ibrahim{
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+.kazeem{
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+.taiwo{
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
