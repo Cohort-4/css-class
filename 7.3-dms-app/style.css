@@ -14,7 +14,8 @@ img {
 
 a {
   text-decoration: none;
-  /* color: inherit; */
+  cursor: pointer;
+  color: inherit;
 }
 ul {
   list-style: none;
@@ -34,15 +35,22 @@ header {
 /* HERO */
 .hero-container {
   display: flex;
-  justify-content: space-evenly;
-  padding: 20px 70px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 60px;
   gap: 2rem;
-}
-.left-hero {
 }
 
 .left-hero {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.bike{
+  width: 250px;
+  height: 250px;
+  align-self: center;
 }
 .left-hero-title {
   /* max-width: 550px; */
@@ -70,8 +78,12 @@ header {
   font-family: DM Sans;
   font-size: 14px;
   font-weight: 700;
+  cursor: pointer;
 }
-
+#left-hero-btn{
+  max-width: max-content;
+  align-self: center;
+}
 .right-hero {
   max-width: 512px;
   border-radius: 20px;
@@ -79,7 +91,7 @@ header {
   box-shadow: 3px -5px 40px 0px rgba(205, 205, 212, 0.1);
   padding: 48px;
 }
-progress{
+progress {
   width: 100%;
 }
 /* FORM */
@@ -100,6 +112,20 @@ form {
 .name input {
   width: 100%;
 }
+.password-wrapper {
+  position: relative;
+}
+.password {
+  width: 100%;
+}
+.eye {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
 input {
   border-radius: 10px;
   border: 1px solid #e2e2ea;
@@ -107,6 +133,7 @@ input {
   height: 48px;
   padding: 12px;
 }
+
 .account-section {
   display: flex;
   align-items: center;
@@ -127,9 +154,27 @@ input {
   .name {
     flex-direction: column;
   }
+  .left-hero-title {
+    font-size: 20px;
+  }
+  .term-condition {
+    font-size: .85rem;
+  }
+  .account-section {
+    flex-direction: column-reverse;
+    gap: 1.5rem;
+  }
+  #reg-btn {
+    width: 100%;
+  }
 }
 @media (max-width: 400px) {
   .hero-container {
     padding: 10px 20px;
+  }
+}
+@media (max-width: 300px) {
+  .right-hero {
+    padding: 30px;
   }
 }

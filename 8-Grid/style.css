@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  padding: 30px;
+}
 .parent-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -19,12 +22,13 @@
 /* gtr */
 .parent-container-row {
   display: grid;
+  gap: 1rem;
   grid-template-rows: 90px 250px;
 }
 .parent-container-row > div {
   background-color: rebeccapurple;
   font-size: 2rem;
-  margin: 0.4rem;
+  /* margin: 0.4rem; */
   color: #ffffff;
   text-align: center;
   padding: 20px;

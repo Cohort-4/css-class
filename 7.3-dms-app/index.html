@@ -35,7 +35,7 @@
           corporation or a regular local deserves the basic standard necessities
           in achieving a high service delivery
         </p>
-        <button class="left-hero-btn">Get started</button>
+        <button class="left-hero-btn" id="left-hero-btn">Get started</button>
       </section>
       <section class="right-hero">
         <progress max="100" value="80">100%</progress>
@@ -52,15 +52,20 @@
           <input type="text" placeholder="Company Address" />
           <input type="tel" placeholder="Phone Number" />
           <input type="email" placeholder="Company Email Address" />
-          <input type="password" placeholder="Password" />
-          <p>
+          <div class="password-wrapper">
+            <input type="password" placeholder="Password" class="password" />
+            <img src="./images/eye1.png" alt="eye" class="eye" />
+          </div>
+          <p class="term-condition">
             By clicking "Next" you agree to our
             <a href="">Terms of Service, Privacy Policy,</a> and to receive
             marketing communications from Envoy.
           </p>
           <div class="account-section">
-            <p class="account-text">Got an account? Sign in</p>
-            <button class="account-btn">Register</button>
+            <p class="account-text">Got an account? <a href="./login.html">Sign in</a></p>
+            <button class="account-btn" id="reg-btn">
+              <a href="./login.html">Register</a>
+            </button>
           </div>
         </form>
       </section>
