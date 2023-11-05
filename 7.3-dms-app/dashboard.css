@@ -1,21 +1,135 @@
 .dashboard-container {
   display: flex;
-  height: 100vh;
+  /* height: 100vh; */
 }
 .sidebar-container {
   flex: 20%;
   background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 25px;
+  /* height: 100vh; */
 }
+.sidebar-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+/* .sidebar-list {
+} */
+.sidebar-list-item {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.sidebar-icon {
+  width: 20px;
+  height: 20px;
+  color: #252525;
+}
+.sidebar-list-item a {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 700;
+}
+
 .main-container {
   flex: 80%;
   display: flex;
   flex-direction: column;
-  gap: 30px;
-  background-color: dodgerblue;
 }
-/* header {
-} */
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+}
+.search-container input {
+  border: none;
+  outline: none;
+}
+::placeholder {
+  color: #000;
+  opacity: 0.4;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.admin-container {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  position: relative;
+  cursor: pointer;
+}
+.admin-profile {
+  font-size: 14px;
+}
+.admin-profile h3 {
+  font-weight: 700;
+}
+.admin-profile small {
+  font-weight: 400;
+}
+.indicator {
+  background-color: #34b53a;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  position: absolute;
+  right: 90px;
+  top: 30px;
+}
 .dashboard-analysis {
   background-color: #e5eff4;
   height: 100vh;
+  padding: 20px;
+}
+.dashboard-content {
+  display: flex;
+  gap: 1rem;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+.card {
+  border-radius: 12px;
+  background: #fff;
+  max-width: 400px;
+  height: 157px;
+  padding: 24px 25px;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
+}
+.top-card-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.bottom-card-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left-bottom-card span {
+  font-size: 38px;
+  font-weight: 700;
+  color: #ff3a29;
+}
+.bottom-card-content span {
+  margin-right: 0.3rem;
 }

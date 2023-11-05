@@ -4,3 +4,4 @@
 - [ ] Complete Grid class.
 - [ ] Responsive grid layout
 - [ ] Animation and Transition
+- [ ] Discuss Portfolio webpage
