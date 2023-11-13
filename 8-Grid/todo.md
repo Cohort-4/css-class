@@ -1,7 +1,7 @@
 ### Todos
-- [ ] Revise `dms-app` task and solve it.
-- [ ] Add forget password page.
-- [ ] Complete Grid class.
-- [ ] Responsive grid layout
-- [ ] Animation and Transition
-- [ ] Discuss Portfolio webpage
+- [x] Revise `dms-app` task and solve it.
+- [x] Add forget password page.
+- [x] Complete Grid class.
+- [x] Responsive grid layout
+- [x] Animation and Transition
+- [x] Discuss Portfolio webpage

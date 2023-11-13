@@ -1,9 +1,9 @@
 ### Pending tasks
 ------------------
 - [x] Forgot password page
-- [ ] Add logout link to sidebar 
-- [ ] Fix sidebar bug 
-- [ ] Complete Dashboard layout
+- [x] Add logout link to sidebar 
+- [x] Fix sidebar bug 
+- [x] Complete Dashboard layout
 - [ ] Add for feedback
 - [ ] Continue with Grid
 - [ ] Dicuss Portfolio
