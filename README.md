@@ -23,3 +23,5 @@ Credit / Reference
 
 [https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors/Selectors_and_combinators](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors/Selectors_and_combinators)
 
+[CSS-Animation](https://cssfx.netlify.app/)
+

@@ -6,6 +6,9 @@ files but consume them as JavaScript objects for additional processing and safet
 CSS Modules are very popular because they automatically make class and animation names 
 unique so you don’t have to worry about selector name collisions.
 
+
+CSS Modules create unique class names for each component, so you don't have to worry about style collisions.
+
 `import styles from "page.module.css"`
 
 ```css

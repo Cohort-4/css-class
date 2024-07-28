@@ -47,7 +47,7 @@ header {
   flex-direction: column;
   gap: 15px;
 }
-.bike{
+.bike {
   width: 250px;
   height: 250px;
   align-self: center;
@@ -80,7 +80,7 @@ header {
   font-weight: 700;
   cursor: pointer;
 }
-#left-hero-btn{
+#left-hero-btn {
   max-width: max-content;
   align-self: center;
 }
@@ -158,7 +158,7 @@ input {
     font-size: 20px;
   }
   .term-condition {
-    font-size: .85rem;
+    font-size: 0.85rem;
   }
   .account-section {
     flex-direction: column-reverse;

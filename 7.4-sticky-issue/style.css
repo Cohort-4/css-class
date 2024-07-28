@@ -1,0 +1,29 @@
+/* default alignment is stretch so changing it to start will fix the issue and addition of height of 100vh or 100dvh to sidebar will fix it  */
+
+/* in summary 
+1. first change the default align-items from stretch to start.
+2. Doing the first step fixes the issue that is make the sidebar to be sticky at top but to make the sidebar to have the entire size of the viewport height then, we can add an height: 100vh or height: 100dvh
+dvh = dynamic viewport height
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  align-items: start;
+  /* gap: 1rem; */
+}
+.sidebar {
+  min-width: 250px;
+  height: 100dvh;
+  position: sticky;
+  top: 0;
+  background-color: dodgerblue;
+}
+.main {
+  background-color: rebeccapurple;
+  padding: 1rem;
+  color: #fff;
+}

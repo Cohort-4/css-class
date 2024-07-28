@@ -92,7 +92,7 @@ header {
 .dashboard-analysis {
   background-color: #e5eff4;
   height: 100%;
-  padding: 20px;
+  padding: 2rem;
 }
 .dashboard-content {
   display: flex;
